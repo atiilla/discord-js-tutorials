@@ -1,0 +1,22 @@
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.stickman {
+    position: absolute !important;
+  
+    margin-top: 230px;
+    cursor: pointer;
+}
+
+.stickman.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.container-fluid{
+    height: 100vh;
+    /* border-left: 100px solid black; */
+    border-width:0 100px 0 100px;
+    border-style: solid;
+    border-image: url('https://images-na.ssl-images-amazon.com/images/I/71owpKt-5NL._AC_SL1500_.jpg') 0% 100% stretch;
+}
